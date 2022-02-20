@@ -1,0 +1,125 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_right{
+ margin-right:2rem; 
+
+}
+
+.header{
+    align-items:center;
+    /* margin-left: 2rem; */
+}
+
+
+.header img{
+    padding: 0px 10px;
+    cursor:pointer;
+}
+.header_center form{
+    /* border: 2px solid #ddd; */
+    margin-left: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/* Targeting search bar */
+.header_center input{
+    width:500px;
+    
+    padding: 10px;
+    margin:0;
+    /* border-color: #ddd; */
+}
+/* Targeting button */
+.header_center button{
+    margin: 0;
+    padding: 0 ;
+    border: none;
+    /* height :100%; */
+}
+/* .side_category1{
+    display: flex;
+    justify-content: evenly;
+    margin: 1rem 0 0 1rem;
+} */
+.span{
+    color: black;
+    height: auto;
+    width: 50px;
+}
+
+.mainbody{
+    /* height:calc(100vh - 70px); */
+    display:flex;
+    overflow:hidden;
+}
+.sidebar{
+    height:100%;
+    width:250px;
+    /* overflow-y: scroll; */
+}
+
+.side_categories{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin-top:30px;
+    margin-bottom: 40px;
+}
+.side_category {
+    display:flex;
+    align-items: center;
+    padding: 12px 25px ;
+    cursor:pointer;
+}
+
+span{
+    margin-left:15px;
+}
+.side_category:hover{
+    background-color: #ddd;
+}
+
+/* now applying css to video parts */
+
+.videos{
+    background-color: #f9f9f9;
+    width:100%;
+    height:100%;
+    padding: 20px 20px;
+}
+.videos_container{
+    display:flex;
+    /* Here i have applied display flex property */
+flex-direction: row;
+justify-content: space-around;
+flex-wrap:wrap;
+}
+
+.video{
+    width:310px;
+    margin-right:10px;
+    margin-bottom:30px;
+}
+.thumbnail{
+    width:100%;
+    height:170px;
+}
+
+.video img{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+}
+span{
+    align-items: center;
+}
+
+h2{
+    align-items: center;
+}
+
